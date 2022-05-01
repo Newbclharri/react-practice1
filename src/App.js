@@ -3,21 +3,11 @@ import './App.css';
 
 function App() {
   return (
+    //Everything in the return statement is JSX
+    //Because JSX is being returned, this function is referred to as a **component**
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello Facebook</h1>
+      <h3>I'm learning how to use react</h3>
     </div>
   );
 }
