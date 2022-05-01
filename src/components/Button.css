@@ -1,0 +1,9 @@
+button{
+    background-color: lightgreen;
+    border: 2px solid lightgreen;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+    margin-right: 5px;
+}
