@@ -1,8 +1,14 @@
-import './Button.css'
+import './Button.css';
 
-const Button = ()=>{
+
+const Button = (props)=>{
+    
     return(
-        <button>Click</button>
+
+        <>
+            
+            <button className="Button">{props.text}</button>
+        </>
     )
 }
 
